@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.big-box {
+    height: 100px;
+    background-color: darkslategrey;
+
+}
+
+.inner-box {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.left span {
+    font-size: 30px;
+    color: black;
+
+}
+
+.left a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.right input {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 6px 12px;
+
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.right .login {
+    background-color: transparent;
+    border: 1px solid gray;
+    background-color: white;
+
+    padding: 6px 12px;
+
+
+
+
+}
+
+.right .sign-up {
+    background-color: yellow;
+    border-radius: 6px;
+    padding: 6px 12px;
+
+
+}
+
+.left .home {
+    color: gray;
+}
